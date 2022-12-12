@@ -4,6 +4,7 @@ import { ICoinList } from "../api/apiTypes";
 import CoinList from "../components/coins/CoinList";
 import Header from "../components/common/header/Header";
 import Loading from "../components/common/loading/Loading";
+import {Helmet} from "react-helmet";
 
 const Coins = () => {
 
@@ -11,6 +12,11 @@ const Coins = () => {
 
     return (
         <>
+        <Helmet>
+            <title>
+                Cryptocurrencies
+            </title>
+        </Helmet>
         <Header title="Cryptocurrencies"></Header>
             {
                 isLoading ? <Loading /> : 

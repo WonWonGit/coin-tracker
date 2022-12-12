@@ -14,6 +14,7 @@ import Header from "../components/common/header/Header";
 import Loading from "../components/common/loading/Loading";
 import Chart from "./Chart";
 import Price from "./Price";
+import {Helmet} from "react-helmet";
 
 
 const Coin = () => {
@@ -31,6 +32,11 @@ const Coin = () => {
 
   return (
     <>
+      <Helmet>
+            <title>
+                coin
+            </title>
+      </Helmet>
       <Header title={ state?.name ? state.name : loading ? "Loading..." : infoData?.name as string }/>
       {loading ? (
         <Loading />

@@ -7,6 +7,7 @@ import { useState } from "react";
 import ChartTitle from "../components/chart/ChartTitle";
 import { ChartProps } from "../components/chart/ChartType";
 import { IHistoryData } from "../api/apiTypes";
+import {Helmet} from "react-helmet";
 
 
 const Chart = ({coinId}:ChartProps) => {
@@ -17,7 +18,13 @@ const Chart = ({coinId}:ChartProps) => {
 
 
     return (
-            <>{
+            <>
+            <Helmet>
+            <title>
+                chart
+            </title>
+            </Helmet>
+            {
                 isLoading ? <Loading /> : 
                 <>
                 {
