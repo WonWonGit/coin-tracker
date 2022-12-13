@@ -4,7 +4,7 @@ import Coin from "./routes/Coin";
 
 const Router = () => {
     return(
-        <BrowserRouter basename="https://wonwongit.github.io/coin-tracker/">
+        <BrowserRouter>
             <Switch>
                 <Route path="/:coinId">
                     <Coin></Coin>
