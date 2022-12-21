@@ -1,8 +1,10 @@
 ## React toy project 🧸
 
+https://wonwongit.github.io/coin-tracker/
+
 # coin-tracker
 
-Create Cryptocurrency tracker with Coin paprike api.
+Create a cryptocurrency tracker web site with coin paprike api.
 
 ## GOALS
 - Understand React-Query
