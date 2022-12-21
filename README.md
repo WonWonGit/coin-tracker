@@ -15,3 +15,4 @@ Create a cryptocurrency tracker web site with coin paprike api.
 - React-Query
 - TypeScript
 - React Router Dom 5.3.0
+- apexcharts
