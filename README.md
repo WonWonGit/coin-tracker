@@ -12,4 +12,4 @@ Create Cryptocurrency tracker with Coin paprike api.
 - Styled-component
 - React-Query
 - TypeScript
-- React Router 
+- React Router Dom 5.3.0
